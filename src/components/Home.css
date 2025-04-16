@@ -1,0 +1,88 @@
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.pet-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pet-card:hover {
+  transform: scale(1.05);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.tips-box {
+  background-color: #eef2ff;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+
+.tips-box ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.banner {
+  margin-top: 2rem;
+  background-color: #ffd6d6;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.banner a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.tips-box,
+.banner,
+.playdate-banner {
+  padding: 1.5rem;
+  border-radius: 15px;
+  background: #f8f8ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.banner {
+  background: #ffd6d6;
+}
+
+.playdate-banner {
+  background: #d6f9ff;
+}
+
+.banner-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #4a54e1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.playdate-banner a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner-link:hover {
+  text-decoration: underline;
+}
